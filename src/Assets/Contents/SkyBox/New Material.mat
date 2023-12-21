@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DefaultFloor
-  m_Shader: {fileID: -6465566751694194690, guid: d0d0e9ee70daa634193c722c14b72b05,
-    type: 3}
+  m_Name: New Material
+  m_Shader: {fileID: 108, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _MAPPING_LATITUDE_LONGITUDE_LAYOUT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -96,19 +96,20 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FloorNormalStrength: 4.38
+    - _Exposure: 0.32
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _ImageType: 0
+    - _Layout: 0
+    - _Mapping: 1
     - _Metallic: 0
+    - _MirrorOnBack: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PolygonHeight: 1.13
-    - _PolygonSIdes: 6
-    - _PolygonWidth: 1.04
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Rotation: 12
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -118,16 +119,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
-    - _Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FloorColor1: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorColor2: {r: 1, g: 0.9620909, b: 0.6761006, a: 0}
-    - _FloorOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorTiling: {r: 50, g: 50, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tint: {r: 0.74308765, g: 0.80289906, b: 0.9528302, a: 0.5}
   m_BuildTextureStacks: []
---- !u!114 &1709078775359592608
+--- !u!114 &7577621468095549575
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

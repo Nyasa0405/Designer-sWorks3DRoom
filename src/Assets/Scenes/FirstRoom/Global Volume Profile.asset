@@ -15,10 +15,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.19
   contrast:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 12
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -40,19 +40,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.71
+    m_Value: 0.7
   intensity:
     m_OverrideState: 1
-    m_Value: 9.94
+    m_Value: 4.65
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.189
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -60,8 +60,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   downscale:
     m_OverrideState: 0
     m_Value: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
     m_Value: {x: 0.85158837, y: 0.8618773, z: 1, w: 0}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9947272, z: 0.89537865, w: 0}
+    m_Value: {x: 0.8382903, y: 0.8259362, z: 1, w: 0}
   highlights:
     m_OverrideState: 1
     m_Value: {x: 0.8235774, y: 0.89745325, z: 1, w: 0}
