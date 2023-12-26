@@ -96,16 +96,16 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FloorNormalStrength: 4.38
+    - _FloorNormalStrength: 5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PolygonHeight: 1.13
+    - _PolygonHeight: 1.16
     - _PolygonSIdes: 6
-    - _PolygonWidth: 1.04
+    - _PolygonWidth: 1.02
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -122,9 +122,9 @@ Material:
     - _Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FloorColor1: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorColor2: {r: 1, g: 0.9620909, b: 0.6761006, a: 0}
+    - _FloorColor2: {r: 1, g: 0.9734788, b: 0.7798742, a: 0}
     - _FloorOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorTiling: {r: 50, g: 50, b: 0, a: 0}
+    - _FloorTiling: {r: 15, g: 15, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1709078775359592608
