@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonTable
-  m_Shader: {fileID: -6465566751694194690, guid: d278d0350bbf5b34eb4bc42a2228ad9e,
+  m_Name: DefaultUpperFloor
+  m_Shader: {fileID: -6465566751694194690, guid: d0d0e9ee70daa634193c722c14b72b05,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -52,10 +52,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: a2ff888525337f849a09d0ad08447fef, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -86,8 +82,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _1stShadow: 3.12
-    - _2ndShadow: 0.08
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -102,33 +96,39 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FloorNormalStrength: 5
+    - _FloorSmoothness: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _PolygonHeight: 1.37
+    - _PolygonSIdes: 4
+    - _PolygonWidth: 1.38
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularSmoothness: 0.149
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffuseColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+    - _BaseColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    - _Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FloorColor1: {r: 0.3443396, g: 0.93119067, b: 1, a: 0}
+    - _FloorColor2: {r: 0.05286579, g: 0.25394523, b: 0.41509432, a: 0}
+    - _FloorOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _FloorTiling: {r: 29, g: 29, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5272555390957944469
+--- !u!114 &1709078775359592608
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

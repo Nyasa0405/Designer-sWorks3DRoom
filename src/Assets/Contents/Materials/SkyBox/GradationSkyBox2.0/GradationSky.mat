@@ -1,19 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3421422251330139473
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
---- !u!114 &-2014540677806995890
+--- !u!114 &-5393921082892003471
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasicsSky
-  m_Shader: {fileID: -6465566751694194690, guid: ac80eeab9aaf024459044a6ce2b0e395,
+  m_Name: GradationSky
+  m_Shader: {fileID: -6465566751694194690, guid: 4be24652b9817774e898b00de13b9ebd,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -90,6 +77,22 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1d900247120949bab8e4f8dad340282f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6a82d6a31d7b6744688799d710e94e05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5679f775f19845ba87e12c74144e717e_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_89fe47568bff4157851d609409fd653a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 53def890733b5d54e9a98a68a09c2026, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9a0eeefaee3046cfa85f0cf3cfe5f849_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 53def890733b5d54e9a98a68a09c2026, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -108,13 +111,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _1stSeparate: 2.3
+    - _2ndSeparate: 0.83
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _BUILTIN_AlphaClip: 0
     - _BUILTIN_Blend: 0
     - _BUILTIN_CullMode: 2
     - _BUILTIN_DstBlend: 0
-    - _BUILTIN_QueueControl: -1
+    - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BUILTIN_SrcBlend: 1
     - _BUILTIN_Surface: 0
@@ -124,7 +129,6 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -138,12 +142,10 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _GroundBlend: 1
-    - _HorizonBlend: 32
+    - _HorizonBlend: 30
     - _Metallic: 0
-    - _NadirBlend: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -153,16 +155,27 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _WorkflowMode: 1
-    - _ZTest: 4
     - _ZWrite: 1
-    - _ZWriteControl: 0
     - _ZenithBlend: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0, g: 0.2973491, b: 0.3301887, a: 0}
-    - _HorizonColor: {r: 0, g: 0.9065428, b: 1, a: 0}
-    - _SkyColor: {r: 0.83647794, g: 0.9842276, b: 1, a: 0}
+    - _GroundColor: {r: 0, g: 1, b: 0.7254902, a: 0}
+    - _HorizonColor: {r: 0.9137255, g: 1, b: 0.9960783, a: 0}
+    - _SkyColor: {r: 0.5921568, g: 1, b: 0.9529411, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &2549570573408980983
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

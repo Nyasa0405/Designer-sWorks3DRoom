@@ -97,15 +97,16 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FloorNormalStrength: 5
+    - _FloorSmoothness: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PolygonHeight: 1.16
+    - _PolygonHeight: 1.15
     - _PolygonSIdes: 6
-    - _PolygonWidth: 1.02
+    - _PolygonWidth: 0.99
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -121,10 +122,10 @@ Material:
     - _BaseColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FloorColor1: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorColor2: {r: 1, g: 0.9734788, b: 0.7798742, a: 0}
-    - _FloorOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _FloorTiling: {r: 15, g: 15, b: 0, a: 0}
+    - _FloorColor1: {r: 0.9433962, g: 0.8585029, b: 0.35303184, a: 0}
+    - _FloorColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _FloorOffset: {r: 2, g: 2, b: 0, a: 0}
+    - _FloorTiling: {r: 5, g: 5, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1709078775359592608

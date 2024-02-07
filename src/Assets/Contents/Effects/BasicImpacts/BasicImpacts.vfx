@@ -12,25 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01270efd3285ea4a9d6c555cb0a8027, type: 3}
   m_Name: VFXUI
   m_EditorClassIdentifier: 
-  groupInfos:
-  - title: New Group Node
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
-    contents: []
+  groupInfos: []
   stickyNoteInfos: []
   categories:
   - name: Graphics
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 3513
-    height: 1119
+    x: 2440
+    y: 452
+    width: 1073
+    height: 667
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -569,7 +561,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2367, y: 445.5}
+  m_UIPosition: {x: 2440, y: 452}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
