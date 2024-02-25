@@ -1,0 +1,25 @@
+name: Make_Artist_Elements
+description:  File a request artist elements
+title: "[AristElements]: "
+labels: ["Shader","Model","Effect","Animation"]
+assignees:
+  - octocat
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What Do You Want ?
+      description: Also tell us, what do you want artist contents?
+      placeholder: Tell us what you want!
+      value: "I want to make____."
+    validations:
+      required: true
+ 
