@@ -126,7 +126,7 @@ Material:
     - _DstBlendAlpha: 0
     - _Emission_Color_Noise: 0
     - _EnvironmentReflections: 1
-    - _Fresnel_Power: 3.5
+    - _Fresnel_Power: 4.04
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -149,16 +149,18 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Texture_Use: 1
+    - _VertexStrength: 0
+    - _Vertex_Move: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo_Main_Color: {r: 0, g: 1.1353018, b: 0.024854379, a: 0}
+    - _Albedo_Main_Color: {r: 0.9838304, g: 1.1353018, b: 0, a: 0}
     - _Albedo_Scroll: {r: 0, g: -0.3, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emisssion_Jelly_Color: {r: 0.15622874, g: 0.48235294, b: 0.11764706, a: 0}
-    - _In_Sub_Emission_Color: {r: 0, g: 1.304119, b: 0.087544695, a: 0}
+    - _Emisssion_Jelly_Color: {r: 0.27634472, g: 0.48235294, b: 0.11764706, a: 0}
+    - _In_Sub_Emission_Color: {r: 1.304119, g: 1.2705926, b: 0, a: 0}
     - _Noise_Value: {r: 0, g: 5, b: 0, a: 0}
     - _Offset: {r: 0, g: 4, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
