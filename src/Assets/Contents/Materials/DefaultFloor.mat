@@ -96,6 +96,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Float: 1
     - _FloorNormalStrength: 5
     - _FloorSmoothness: 1
     - _GlossMapScale: 0
@@ -122,8 +123,8 @@ Material:
     - _BaseColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FloorColor1: {r: 0.0626557, g: 0.40433067, b: 0.4528302, a: 0}
-    - _FloorColor2: {r: 0.83632374, g: 0.8396226, b: 0.74985164, a: 0}
+    - _FloorColor1: {r: 0, g: 0.6882992, b: 1, a: 0}
+    - _FloorColor2: {r: 0.83158684, g: 0.8396226, b: 0.6548, a: 0}
     - _FloorOffset: {r: 2, g: 2, b: 0, a: 0}
     - _FloorTiling: {r: 5, g: 5, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

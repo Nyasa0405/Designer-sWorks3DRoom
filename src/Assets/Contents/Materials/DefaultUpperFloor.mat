@@ -105,7 +105,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _PolygonHeight: 1.37
-    - _PolygonSIdes: 4
+    - _PolygonSIdes: 6
     - _PolygonWidth: 1.38
     - _QueueControl: 0
     - _QueueOffset: 0
