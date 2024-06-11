@@ -2618,10 +2618,10 @@
     "m_Guid": {
         "m_GuidSerialized": "8e1dfcbe-c485-4e17-874a-bceeb4c195e4"
     },
-    "m_Name": "UseScreenSpce",
+    "m_Name": "UseScreenSpace",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "UseScreenSpce",
-    "m_DefaultReferenceName": "_USESCREENSPCE",
+    "m_RefNameGeneratedByDisplayName": "UseScreenSpace",
+    "m_DefaultReferenceName": "_USESCREENSPACE",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7704,7 +7704,7 @@
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "e3fd03e63ca04718b7f890f62636010b",
     "m_Id": 0,
-    "m_DisplayName": "Out",
+    "m_DisplayName": "UseScreenSpace",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7956,7 +7956,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "UseScreenSpce",
+    "m_Name": "UseScreenSpace",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
