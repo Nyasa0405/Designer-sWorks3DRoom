@@ -137,8 +137,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GroundBlend: 1
-    - _HorizonBlend: 32
+    - _GroundBlend: 15.5
+    - _HorizonBlend: 4.6
     - _Metallic: 0
     - _NadirBlend: 1
     - _OcclusionStrength: 1
@@ -156,13 +156,13 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _ZenithBlend: 1
+    - _ZenithBlend: 10
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.05075941, g: 0.4630406, b: 0.5566038, a: 0}
-    - _HorizonColor: {r: 0.47083777, g: 0.549316, b: 0.5566038, a: 0}
-    - _SkyColor: {r: 0.7842352, g: 0.7908805, b: 0.8018868, a: 0}
+    - _GroundColor: {r: 0.36862746, g: 0.31817433, b: 0.31764707, a: 0}
+    - _HorizonColor: {r: 0.8018868, g: 0.7544827, b: 0.6783256, a: 0}
+    - _SkyColor: {r: 0.6710573, g: 0.73269737, b: 0.8207547, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15082002, g: 0.20009796, b: 0.22715062, a: 1}
+  m_IndirectSpecularColor: {r: 0.13018513, g: 0.11947866, b: 0.106056996, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -555,18 +555,18 @@ VisualEffect:
       m_Array:
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0.0029666494, g: 0.019372556, b: 0.047169805, a: 1}
-          key1: {r: 0.07588027, g: 0.21448821, b: 0.18071201, a: 1}
-          key2: {r: 0, g: 0.34013578, b: 0.49416855, a: 1}
-          key3: {r: 0, g: 8.960801, b: 8.518592, a: 0}
-          key4: {r: 0, g: 2.655523, b: 9.347469, a: 0}
-          key5: {r: 0, g: 2.17376, b: 7.756184, a: 0}
+          key0: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+          key2: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+          key3: {r: 0.24273384, g: 0.042838514, b: 1.7028363, a: 0}
+          key4: {r: 1.0473745, g: 0.65955514, b: 8.066873, a: 0}
+          key5: {r: 8.841834, g: 8.753825, b: 10.4651, a: 0}
           key6: {r: 0.19165407, g: 1.4335928, b: 1.6038432, a: 0}
           key7: {r: 0, g: 7.9582925, b: 7.743203, a: 0}
           ctime0: 0
-          ctime1: 16962
-          ctime2: 50501
-          ctime3: 65535
+          ctime1: 34053
+          ctime2: 65535
+          ctime3: 37201
           ctime4: 54741
           ctime5: 64571
           ctime6: 53970
@@ -581,7 +581,7 @@ VisualEffect:
           atime7: 0
           m_Mode: 0
           m_ColorSpace: 1
-          m_NumColorKeys: 4
+          m_NumColorKeys: 3
           m_NumAlphaKeys: 2
         m_Name: MainGradient
         m_Overridden: 1
