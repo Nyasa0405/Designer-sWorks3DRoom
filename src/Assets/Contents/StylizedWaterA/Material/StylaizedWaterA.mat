@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StylaizedWaterA
-  m_Shader: {fileID: -6465566751694194690, guid: 9706a604490a8d64283004892e1e5d7c,
+  m_Shader: {fileID: -6465566751694194690, guid: 0ccb611677718d74ea43690e594f916e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -103,6 +103,7 @@ Material:
     - _FoamCutoff: 1.16
     - _FoamScale: 103.67
     - _FoamSpeed: 1.03
+    - _FresnelPower: 0.14
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -116,12 +117,14 @@ Material:
     - _ReceiveShadows: 1
     - _RefractionSpeed: 0.12
     - _RefractionStrength: 0.67
-    - _Smoothness: 0.863
+    - _Smoothness: 0.93
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _VoronoiScale: 3
+    - _VoronoiSpeed: 1
     - _WaveAmplitude: 0.05
     - _WaveSpeed: 0.15
     - _WorkflowMode: 1
@@ -131,12 +134,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0.13978878, g: 0.1703704, b: 0.1792453, a: 0.56078434}
+    - _DeepColor: {r: 0.38395733, g: 0.8301887, b: 0.06787699, a: 0.19215687}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 0.9968553, g: 1, b: 0.99929404, a: 0.7411765}
+    - _MainColor: {r: 0.4654087, g: 0, b: 0, a: 0}
     - _RefractionScale: {r: 3, g: 9.26, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SurfaceColor: {r: 0.040702417, g: 0.8882064, b: 0.9245283, a: 1}
+    - _SurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _Vector2: {r: 160.4, g: 121.44, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3774382099832300297

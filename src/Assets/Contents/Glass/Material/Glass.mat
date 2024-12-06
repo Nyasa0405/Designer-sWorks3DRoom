@@ -21,19 +21,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass
-  m_Shader: {fileID: -6465566751694194690, guid: 97097aa8e0fcf46418451d6a93d22d74,
+  m_Shader: {fileID: -6465566751694194690, guid: c4ccd46db8e711545bc707de0d5e3151,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
+  - _SPECULAR_SETUP
   - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -96,7 +99,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.311
+    - _AO: 0.5
+    - _Alpha: 0.56
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -109,26 +113,28 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistortionStrength: 0.0002
+    - _DistortionStrength: 0.001
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: 0.32
-    - _FresnelPower: 0
+    - _FresnelPower: 2.17
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metalic: 1
-    - _Metallic: 0
-    - _NoiseScale: 13
-    - _NormalStrength: 0.0002
+    - _Metalic: 0
+    - _Metallic: 0.15
+    - _NoOpacity: 0.48
+    - _NoiseNormalStrength: 0.06
+    - _NoiseScale: 1.47
+    - _NormalStrength: 0.001
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 1
     - _QueueOffset: -21
     - _ReceiveShadows: 1
     - _ReflactionStrength: 0
-    - _Smoothness: 0.463
+    - _Smoothness: 1.21
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -139,9 +145,11 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.5781416, g: 0.9056604, b: 0.5965388, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_1: {r: 0.9433962, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GlassColor: {r: 0.7830189, g: 0.7470429, b: 0.56633437, a: 0.105882354}
+    - _FresnelColor: {r: 0, g: 21.64894, b: 15.391714, a: 0}
+    - _GlassColor: {r: 48.50291, g: 1.2201952, b: 2.2197564, a: 0.105882354}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

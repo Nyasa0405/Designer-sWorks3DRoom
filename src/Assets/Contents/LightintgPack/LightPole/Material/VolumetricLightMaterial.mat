@@ -99,8 +99,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.31
-    - _AlphaClip: 0.007
+    - _Alpha: 0.48
+    - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -116,6 +116,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FresnelEdgeFalloff: 0.45
+    - _FresnelInerPower: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
