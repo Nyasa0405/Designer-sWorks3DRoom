@@ -17,8 +17,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -103,25 +104,25 @@ Material:
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _Distance: 4.81
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FoamAmount: 2.86
     - _FoamCutoff: 1.16
     - _FoamScale: 103.67
     - _FoamSpeed: 1.03
-    - _FresnelPower: 0.67
-    - _FresnelScale: 1
+    - _FresnelPower: 0.26
+    - _FresnelScale: 0.25
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HightFrequency: 1.46
-    - _IridecentIntensity: 1.7
+    - _IridecentIntensity: 4.47
     - _Metalic: 0.97
     - _Metallic: 0
     - _NoiseSize: 2.4
@@ -143,19 +144,19 @@ Material:
     - _Speed: 0.01
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Surface: 1
-    - _VoronoiAngleOffset: 2.45
+    - _Surface: 0
+    - _VoronoiAngleOffset: 2.69
     - _VoronoiIntensity: 0.41
-    - _VoronoiPower: 9.6
+    - _VoronoiPower: 8.3
     - _VoronoiScale: 7.3
     - _WaveAmplitude: 0.18
-    - _WaveSpeed: 0
+    - _WaveSpeed: 0.02
     - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 0.5377358, g: 0.45439658, b: 0.0033819196, a: 1}
+    - _BaseColor: {r: 0.12575321, g: 0.3584906, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepColor: {r: 0.8470588, g: 0, b: 1, a: 0.19215687}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -164,7 +165,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SurfaceColor: {r: 0.16139334, g: 0, b: 0.1792453, a: 1}
     - _Vector2: {r: 160.4, g: 121.44, b: 0, a: 0}
-    - _VoronoiColor: {r: 1, g: 0.90419936, b: 0.36320752, a: 0}
+    - _VoronoiColor: {r: 9.849154, g: 9.011813, b: 3.2211065, a: 1}
     - _VoronoiSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _VoronoiTiling: {r: 8, g: 8, b: 0, a: 0}
   m_BuildTextureStacks: []
